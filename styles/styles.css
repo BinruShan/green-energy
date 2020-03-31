@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri&display=swap');
+
+#active {
+    color: black;
+}
+
+body {
+	background-color: #e1c291;
+	font-family: 'Amiri', serif;
+	color: white;
+	line-height: 1.4rem;
+}
+
+img {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+}
+
+.box1 {
+	font-family: 'Amiri', serif;
+	max-width: 480px;
+	margin: auto;
+	background-color: white;
+	height: auto;
+	color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.box1 li a {
+	color: #ab9777;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+	list-style-type: none;
+}
+
+a.hidden {
+	display: none;
+}
+
+li a:hover {
+	background-color: #268858;
+	color: white;
+}
+
+.active1 {
+	background-color: #82a767;
+ 	border: none;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.active2 {
+	background-color: #a7a567;
+ 	border: none;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.active3 {
+	background-color: #a78467;
+ 	border: none;
+	color: white;
+	padding: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.active1:hover {
+  background-color: #5b7b44;
+}
+
+.active2:hover {
+  background-color: #6c6a2f;
+}
+
+.active3:hover {
+  background-color: #845f40;
+}
+
+.controls {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+
+@media (min-width: 40rem){
+	body {
+		line-height: 1.6rem;
+		font-size: 18pt;
+	}
+
+	.box1 {
+		max-width: 1000px;
+	}
+
+	.box1 li a {
+		padding: 10px 16px;
+	}
+
+	.box2 {
+		text-align: center;
+	}
+
+	footer ul li {
+		display: inline;
+	}
+
+	.controls {
+		justify-content: center;
+	}
